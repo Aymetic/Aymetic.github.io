@@ -24,13 +24,13 @@
                 var seconds = Math.floor(diff_3 / 1000); //得到秒数
                 document.getElementById("diffTime").innerHTML =
                     stringHead +
-                    days +
+                    Math.abs(days) +
                     "天" +
-                    hours +
+                    Math.abs(hours) +
                     "小时" +
-                    minutes +
+                    Math.abs(minutes) +
                     "分" +
-                    seconds +
+                    Math.abs(seconds) +
                     "秒";
             }
             var time = "2021/02/21 16:00:00";

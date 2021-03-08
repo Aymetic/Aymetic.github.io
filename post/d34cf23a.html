@@ -22,7 +22,7 @@
   
     <meta name="baidu-site-verification" content="code-86RQhNleVR" />
   
-  <title>郑州之旅 - 爱生活，爱🍜</title>
+  <title>自制天气查询软件 - 爱生活，爱🍜</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -181,7 +181,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="郑州之旅">
+            <span class="h2" id="subtitle" title="自制天气查询软件">
               
             </span>
 
@@ -191,8 +191,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-02-10 17:27" pubdate>
-        2021年2月10日 下午
+      <time datetime="2021-03-08 07:54" pubdate>
+        2021年3月8日 早上
       </time>
     </span>
   
@@ -203,7 +203,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      110 字
+      546 字
     </span>
   
 
@@ -213,7 +213,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分钟
     </span>
   
@@ -243,20 +243,46 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">郑州之旅</h1>
+            <h1 style="display: none">自制天气查询软件</h1>
             
             <div class="markdown-body">
-              <p>记不清哪天开始讨论去郑州的了。从等待火车票开售到等待见面后的激动，中间不知经历了多少个难熬的夜晚。但是！这一天终于快到了，老规矩，先上倒计时！</p>
-<iframe src="../myPages/A trip to Zhengzhou/index.html" scrolling="yes" frameborder=0 width=100% height=50> </iframe>
-<p>目前我们的旅行计划如下：</p>
-<ul>
-<li>[ ] 去动物园耍一耍</li>
-<li>[ ] 去电影院看《唐人街探案3》</li>
-<li>[ ] 去郑州嵩山少林寺</li>
-<li>[ ] 去商场逛街</li>
-<li>[ ] 去</li>
-</ul>
-<p>待更新~</p>
+              <p>这个软件做出来很久了，以至于我已经忘记了我还做过这么一个软件，今天整理文件才发现，索性就现在为它记录一篇吧，毕竟是我自己做的第一个软件。</p>
+<p>时间回到2019年暑假，那是我加入创明的第一个暑假，C++组要求每个组员完成一个暑假作业，于是我拿起了刚刚学习的Qt框架。当时还构思了好久，想做的软件很多，但是刚学Qt，C++也用的不太熟练。后来发现电脑上能看天气的软件很少，只有一个Windows自带的天气App，网页版还需要打开浏览器，不能够即开即用。所以决定开始自己用Qt搭建一个天气查询软件。</p>
+<p>Qt是跟着B站的黑马程序员课程学的，特别喜欢那个老师的授课方式，现在还在我的收藏夹里，因为网络编程和绘图部分还没有系统学习😋，附上链接：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1XW411x7NU">黑马程序员Qt（第一部分）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>，我愿称之为经典！</p>
+<h2 id="一-界面"><a class="markdownIt-Anchor" href="#一-界面"></a> 一、界面</h2>
+<p><img src="https://gitee.com/yzeven/blog-pic/raw/master//image/1615187915-2e8d8e.png" srcset="/img/loading.gif" alt="image-20210308151835167" /></p>
+<blockquote>
+<p>现在看以前做的软件感觉真的好蠢！界面留的空白太多，而且布局也非常的乱…</p>
+</blockquote>
+<p>该有的功能都有，譬如当前温度（大大的显示）、天气详情以及未来五天的天气预报，图标是从阿里巴巴图标库搜到的，尽量保持了风格统一。</p>
+<h2 id="二-核心代码"><a class="markdownIt-Anchor" href="#二-核心代码"></a> 二、核心代码</h2>
+<h3 id="1-网络请求"><a class="markdownIt-Anchor" href="#1-网络请求"></a> 1、网络请求</h3>
+<div class="code-wrapper"><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token comment">/**
+ * 函数名：MainWindow::onGetWeather
+ * 功能：访问天气Api并捕获返回的数据
+ * 参数：无
+ * 返回值：无
+ */</span>
+<span class="token keyword">void</span> <span class="token class-name">MainWindow</span><span class="token operator">::</span><span class="token function">onGetWeather</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token function">qDebug</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> <span class="token class-name">QTime</span><span class="token operator">::</span><span class="token function">currentTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//天气预报V2接口</span>
+    <span class="token comment">//http://t.weather.sojson.com/api/weather/city/v2/101180710</span>
+    QString localApi <span class="token operator">=</span> <span class="token string">"http://t.weather.itboy.net/api/weather/city/101180710"</span><span class="token punctuation">;</span>
+    QString webApi <span class="token operator">=</span> <span class="token string">"http://t.weather.itboy.net/api/weather/city/"</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>cityID<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        mNetRequest<span class="token operator">-></span><span class="token function">setUrl</span><span class="token punctuation">(</span><span class="token function">QUrl</span><span class="token punctuation">(</span>webApi <span class="token operator">+</span> cityID<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        mNetRequest<span class="token operator">-></span><span class="token function">setUrl</span><span class="token punctuation">(</span><span class="token function">QUrl</span><span class="token punctuation">(</span>localApi<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    mNetRequest<span class="token operator">-></span><span class="token function">setHeader</span><span class="token punctuation">(</span>QNetworkRequest<span class="token operator">::</span>UserAgentHeader<span class="token punctuation">,</span> <span class="token string">"RT-Thread ART"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    mNetManager<span class="token operator">-></span><span class="token function">get</span><span class="token punctuation">(</span><span class="token operator">*</span>mNetRequest<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+<blockquote>
+<p>Note: 2021年3月7日更新，原api已失效，已更换为http://t.weather.itboy.net/api/weather/city/+citycode</p>
+<p>在此感谢<a target="_blank" rel="noopener" href="https://www.sojson.com/">sojson</a>提供的天气api接口，且新的api返回的数据还是原汁原味！</p>
+</blockquote>
 
             </div>
             <hr>
@@ -267,7 +293,11 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%83%85%E4%BE%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E8%AE%B0%E5%BD%95/">情侣之间的记录</a>
+                      <a class="hover-with-bg" href="/tags/C/">C++</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Qt/">Qt</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6/">自制软件</a>
                     
                   </div>
                 
@@ -284,18 +314,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/post/57a23e5f.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">C++实现的几种斐波那契数列算法</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/post/80e9c118.html">
-                        <span class="hidden-mobile">2021年2月8日总结</span>
+                      <a href="/post/1f91202.html">
+                        <span class="hidden-mobile">自制鼠标鼠标连点器</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
