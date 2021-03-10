@@ -1,16 +1,15 @@
-// 浏览器搞笑标题
+// 可爱的Title
 var OriginTitle = document.title;
 var titleTime;
-document.addEventListener('visibilitychange', function () {
+document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
-        //$('[rel="icon"]').attr('href', "/funny.ico");
-        document.title = '╭(°A°`)╮ 不好！页面崩溃啦 ~';
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(つェ⊂) 我藏好了哦~~';
         clearTimeout(titleTime);
-    }
-    else {
-        //$('[rel="icon"]').attr('href', "/favicon.ico");
-        document.title = '(ฅ>ω<*ฅ) 噫，又好啦 ~' + OriginTitle;
-        titleTime = setTimeout(function () {
+    } else {
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(*´∇｀*) 被你发现啦~~' + OriginTitle;
+        titleTime = setTimeout(function() {
             document.title = OriginTitle;
         }, 2000);
     }
