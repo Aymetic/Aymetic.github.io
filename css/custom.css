@@ -15,9 +15,10 @@ a {
     color: #00c4b6;
 }
 
-body {
-    font-family: 'ShouZha'
-    url('https://cdn.jsdelivr.net/gh/lovenoodle/lovenoodle.github.io@latest/css/shouzha.ttf')
+@font-face{
+  font-family:'ShouZha' ;  /* 字体名自定义即可 */
+  src:url('/fonts/shouzha.ttf'); /* 字体文件路径 */
+  font-display : swap;
 }
 
 /* 修改tips样式 */
