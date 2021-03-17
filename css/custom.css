@@ -16,14 +16,14 @@ a {
 }
 
 @font-face{
-  font-family:'ShouZha' ;  /* 字体名自定义即可 */
+  font-family:'JinKai' ;  /* 字体名自定义即可 */
   /*src:url('https://cdn.jsdelivr.net/gh/lovenoodle/lovenoodle.github.io@latest/font/shouzha.ttf');*/ /* 字体文件路径 */
-  src:url('https://github.com/lovenoodle/lovenoodle.github.io/tree/main/font/shouzha.ttf');
+  src:url('https://cdn.jsdelivr.net/gh/Aymetic/Aymetic.github.io@latest/font/JinKai.ttf');
   font-display : swap;
 }
 
 h1#site-title {
-  font-family: 'ShouZha', sans-serif;
+  font-family: 'JinKai', sans-serif;
 }
 
 /* 修改tips样式 */
