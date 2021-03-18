@@ -17,8 +17,8 @@ a {
 
 @font-face{
   font-family:'JinKai' ;  /* 字体名自定义即可 */
-  src:url('/font/JinKai.ttf'); /* 字体文件路径 */
-  /*src:url('https://cdn.jsdelivr.net/gh/Aymetic/Aymetic.github.io@latest/font/JinKai.ttf');*/
+  /*src:url('/font/JinKai.ttf'); /* 字体文件路径 */
+  src:url('https://cdn.jsdelivr.net/gh/Aymetic/Aymetic.github.io@latest/font/JinKai.ttf');
   font-display : swap;
 }
 
