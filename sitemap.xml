@@ -88,6 +88,13 @@
 
   
   <url>
+    <loc>https://lovenoodle.vercel.app/tags/Qt/</loc>
+    <lastmod>2021-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lovenoodle.vercel.app/tags/%E6%83%85%E4%BE%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2021-03-18</lastmod>
     <changefreq>daily</changefreq>
@@ -103,13 +110,6 @@
   
   <url>
     <loc>https://lovenoodle.vercel.app/tags/C/</loc>
-    <lastmod>2021-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lovenoodle.vercel.app/tags/Qt/</loc>
     <lastmod>2021-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -132,14 +132,14 @@
 
   
   <url>
-    <loc>https://lovenoodle.vercel.app/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://lovenoodle.vercel.app/categories/Qt/</loc>
     <lastmod>2021-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://lovenoodle.vercel.app/categories/Qt/</loc>
+    <loc>https://lovenoodle.vercel.app/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
