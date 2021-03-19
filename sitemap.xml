@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://aymetic.com/post/4a17b156.html</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/post/935c9419.html</loc>
     
     <lastmod>2021-03-19</lastmod>
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/post/4a17b156.html</loc>
-    
-    <lastmod>2021-03-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/myPages/A%20trip%20to%20Zhengzhou/index.html</loc>
     
     <lastmod>2021-03-08</lastmod>
@@ -102,14 +102,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/C/</loc>
+    <loc>https://aymetic.com/tags/Qt/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -130,14 +123,14 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/hexo/</loc>
+    <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Qt/</loc>
+    <loc>https://aymetic.com/tags/C/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -153,7 +146,7 @@
 
   
   <url>
-    <loc>https://aymetic.com/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://aymetic.com/categories/Qt/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -167,7 +160,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/categories/Qt/</loc>
+    <loc>https://aymetic.com/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
