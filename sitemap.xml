@@ -2,21 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://aymetic.com/post/bff83912.html</loc>
-    
-    <lastmod>2021-03-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/post/b30b93f5.html</loc>
-    
-    <lastmod>2021-03-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/post/4d550080.html</loc>
     
     <lastmod>2021-03-19</lastmod>
     
@@ -30,7 +16,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/post/4a17b156.html</loc>
+    <loc>https://aymetic.com/post/bff83912.html</loc>
     
     <lastmod>2021-03-19</lastmod>
     
@@ -38,6 +24,27 @@
   
   <url>
     <loc>https://aymetic.com/post/935c9419.html</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/post/5f5ba4ea.html</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/post/4d550080.html</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/post/4a17b156.html</loc>
     
     <lastmod>2021-03-19</lastmod>
     
@@ -113,13 +120,6 @@
     
   </url>
   
-  <url>
-    <loc>https://aymetic.com/post/5f5ba4ea.html</loc>
-    
-    <lastmod>2019-08-28</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://aymetic.com/</loc>
@@ -144,13 +144,6 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Qt/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -165,6 +158,13 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Hexo/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/Vercel/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -172,7 +172,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Hexo/</loc>
+    <loc>https://aymetic.com/tags/Qt/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -209,13 +209,6 @@
 
   
   <url>
-    <loc>https://aymetic.com/categories/Qt/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -224,6 +217,13 @@
   
   <url>
     <loc>https://aymetic.com/categories/Hexo/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/categories/Qt/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
