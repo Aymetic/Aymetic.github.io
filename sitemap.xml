@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://aymetic.com/link/index.html</loc>
+    
+    <lastmod>2021-03-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/post/b30b93f5.html</loc>
     
     <lastmod>2021-03-19</lastmod>
@@ -137,6 +144,13 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Markdown/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -145,13 +159,6 @@
   
   <url>
     <loc>https://aymetic.com/tags/C/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Markdown/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -186,6 +193,13 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Github/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -194,13 +208,6 @@
   
   <url>
     <loc>https://aymetic.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Github/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
