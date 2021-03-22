@@ -144,13 +144,6 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Markdown/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -165,7 +158,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Vercel/</loc>
+    <loc>https://aymetic.com/tags/Markdown/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -173,6 +166,13 @@
   
   <url>
     <loc>https://aymetic.com/tags/Hexo/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/tags/Vercel/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
