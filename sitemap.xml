@@ -186,20 +186,6 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Hexo/</loc>
-    <lastmod>2021-05-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Vercel/</loc>
-    <lastmod>2021-05-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/tags/Markdown/</loc>
     <lastmod>2021-05-03</lastmod>
     <changefreq>daily</changefreq>
@@ -207,7 +193,21 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Hexo/</loc>
+    <lastmod>2021-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/Qt/</loc>
+    <lastmod>2021-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/tags/Vercel/</loc>
     <lastmod>2021-05-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -251,14 +251,14 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/categories/Hexo/</loc>
+    <loc>https://aymetic.com/categories/Qt/</loc>
     <lastmod>2021-05-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://aymetic.com/categories/Qt/</loc>
+    <loc>https://aymetic.com/categories/Hexo/</loc>
     <lastmod>2021-05-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
