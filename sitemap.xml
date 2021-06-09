@@ -172,6 +172,27 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Markdown/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/tags/Hexo/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aymetic.com/tags/Vercel/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
@@ -186,35 +207,7 @@
   </url>
   
   <url>
-    <loc>https://aymetic.com/tags/Markdown/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Vercel/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Hexo/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aymetic.com/tags/Qt/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aymetic.com/tags/Github/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -235,6 +228,13 @@
   </url>
   
   <url>
+    <loc>https://aymetic.com/tags/Github/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aymetic.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
@@ -244,14 +244,14 @@
 
   
   <url>
-    <loc>https://aymetic.com/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://aymetic.com/categories/Hexo/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://aymetic.com/categories/Hexo/</loc>
+    <loc>https://aymetic.com/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
